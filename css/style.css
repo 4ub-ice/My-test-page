@@ -502,6 +502,7 @@ body {
   background-color: rgb(255, 255, 255);
   max-width: 1440px;
   min-height: 655px;
+  margin: 0 auto;
 }
 
 .fourth__upper-info {
@@ -599,6 +600,7 @@ body {
   max-width: 1440px;
   min-height: 1423px;
   padding: 120px 150px 0 150px;
+  margin: 0 auto;
 }
 
 .fifth__upper-block {
@@ -770,6 +772,7 @@ body {
   max-width: 1440px;
   min-height: 895px;
   padding: 119px 150px 0 150px;
+  margin: 0 auto;
 }
 
 .sixth__upper-block {
@@ -874,6 +877,7 @@ body {
   max-width: 1440px;
   min-height: 819px;
   padding: 120px 150px 0 150px;
+  margin: 0 auto;
 }
 
 .seventh__upper-block {
@@ -992,11 +996,12 @@ button:active {
 
 .footer {
   background-color: rgb(52, 75, 142);
-  width: 1440px;
+  max-width: 1440px;
   height: 113px;
+  margin: 0 auto;
 }
 .footer ul {
-  width: 940px;
+  max-width: 940px;
   height: 113px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1011,6 +1016,8 @@ button:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0 auto;
 }
 .footer ul li {

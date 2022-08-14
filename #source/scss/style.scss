@@ -380,6 +380,7 @@ body {
   background-color: rgb(255, 255, 255);
   max-width: 1440px;
   min-height: 655px;
+  margin: 0 auto;
   // border: solid blue;
 }
 .fourth__upper-info {
@@ -478,6 +479,7 @@ body {
   max-width: 1440px;
   min-height: 1423px;
   padding: 120px 150px 0 150px;
+  margin: 0 auto;
 }
 .fifth__upper-block {
   display: block;
@@ -621,6 +623,7 @@ body {
   max-width: 1440px;
   min-height: 895px;
   padding: 119px 150px 0 150px;
+  margin: 0 auto;
 }
 .sixth__upper-block {
   max-width: 1100px;
@@ -718,6 +721,7 @@ body {
   max-width: 1440px;
   min-height: 819px;
   padding: 120px 150px 0 150px;
+  margin: 0 auto;
 }
 .seventh__upper-block {
   max-width: 1100px;
@@ -820,15 +824,17 @@ button {
 
 .footer {
   background-color: rgb(52, 75, 142);
-  width: 1440px;
+  max-width: 1440px;
   height: 113px;
+  margin: 0 auto;
   & ul {
-    width: 940px;
+    max-width: 940px;
     height: 113px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     & li {
       display: block;
