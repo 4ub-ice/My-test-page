@@ -89,6 +89,34 @@ h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/Myriad Pro Regular.eot");
+  src: local("вє"), url("../fonts/Myriad Pro Regular.woff") format("woff"), url("../fonts/Myriad Pro Regular.ttf") format("truetype"), url("../fonts/Myriad Pro Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../../fonts/Myriad Pro Light.eot");
+  src: local("вє"), url("../../fonts/Myriad Pro Light.woff") format("woff"), url("../fonts/Myriad Pro Light.ttf") format("truetype"), url("../fonts/Myriad Pro Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/Myriad Pro Bold.eot");
+  src: local("вє"), url("../fonts/Myriad Pro Bold.woff") format("woff"), url("../fonts/Myriad Pro Bold.ttf") format("truetype"), url("../fonts/Myriad Pro Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/Myriad Pro Black.eot");
+  src: local("вє"), url("../fonts/Myriad Pro Black.woff") format("woff"), url("../fonts/Myriad Pro Black.ttf") format("truetype"), url("../fonts/Myriad Pro Black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
 body {
   font-family: "Myriad Pro";
 }
@@ -102,7 +130,7 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   min-height: 596px;
-  background-color: rgb(60, 35, 72);
+  background-color: #87509c;
 }
 
 .brandbox {
